@@ -23,7 +23,7 @@ def generate_quote_answer(quote: str) -> str:
     :param quote: The quote to be used as inspiration.
     :return: The generated motivational text.
     """
-    question = f"Today's quote is: '{quote}'. Can you compose a brief motivational text that incorporates this quote?"
+    question = f"Today's quote is: '{quote}'. Can you compose a brief motivational text that incorporates this quote? Please add the quote at the beginning of your answer."
     answer = generate_answer(question)
     return answer
 
